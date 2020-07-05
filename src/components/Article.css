@@ -1,0 +1,66 @@
+.article {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.article-img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.article-description {
+    padding: 35px 30px 20px 30px;
+}
+
+.title {
+    font-size: 18px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.description {
+    color: hsl(214, 17%, 51%);
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+.footer {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 12px;
+}
+
+.names {
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.date {
+    color: hsl(212, 23%, 69%);
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.action {
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
